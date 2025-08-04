@@ -1,4 +1,5 @@
 import React from "react";
+import "./Navbar.css";
 
 const Navbar: React.FC = () => {
   return (
@@ -17,7 +18,6 @@ const Navbar: React.FC = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
-        <li></li>
       </ul>
     </nav>
   );

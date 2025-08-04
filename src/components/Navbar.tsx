@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="navbar_logo">Nyunt Sein</div>
-      <ul>
+      <ul className="navbar-links">
         <li>
           <a href="#about">About</a>
         </li>

@@ -14,3 +14,5 @@ This is my personal portfolio website built with **React JS** & **TypeScript** &
 - Created `Navbar.tsx` using React + TypeScript.
 - Styled with regular CSS in `Navbar.css`.
 - Imported and used it in `App.tsx`.
+![Navbar Screenshot](![Navbar Small](https://github.com/user-attachments/assets/cb9cca49-47ea-47be-83f8-c4cf49894ff8)
+)

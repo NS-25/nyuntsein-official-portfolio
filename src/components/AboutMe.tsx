@@ -10,7 +10,7 @@ type AboutMeProps = {
 
 const AboutMe: React.FC<AboutMeProps> = ({ name, bio }) => {
   return (
-    <section>
+    <section className="about">
       <h2>About Me</h2>
       <p>
         <strong>{name}</strong>

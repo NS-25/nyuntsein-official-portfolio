@@ -6,11 +6,9 @@ import "./AboutMe.css";
 type AboutMeProps = {
   name: string;
   bio: string;
-  email:string
 };
 
-const AboutMe: React.FC<AboutMeProps> = ({ name, bio , email }) => {
-  const [firstName, setFirstName] = React.useState<string>("")
+const AboutMe: React.FC<AboutMeProps> = ({ name, bio }) => {
   return (
     <section className="about">
       <h2>About Me</h2>
@@ -18,7 +16,6 @@ const AboutMe: React.FC<AboutMeProps> = ({ name, bio , email }) => {
         <strong>{name}</strong>
       </p>
       <p>{bio}</p>
-      <button>MY RESUME</button>
     </section>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import deleteIcon from "../images/delete-icon.png";
 import subtractIcon from "../images/subtract-icon.png"
-import 
+import  expandIcon from "../images/expand-icon.png"
 
 const Navbar: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
         </div>
         <div>
           <img
-            src="./images/expand-icon.png"
+            src={expandIcon}
             alt="expand"
             className="full_screen_icon"
           />

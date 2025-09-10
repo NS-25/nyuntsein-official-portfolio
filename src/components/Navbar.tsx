@@ -6,15 +6,18 @@ const Navbar: React.FC = () => {
     <nav className="navbar">
       <div className="navbar_icons">
         <div>
-          <img src="" className="close_icon" />
+          <img src="" alt="" className="close_icon" />
         </div>
         <div>
-          <img src="" className="subtract_icon" />
+          <img src="" alt="" className="subtract_icon" />
         </div>
         <div>
-          <img src="" className="full_screen_icon" />
+          <img src="" alt="" className="full_screen_icon" />
         </div>
-        <div></div>
+        <div className="navbar_name">
+          <h1>Nyunt Sein</h1>
+          <img src="" alt="" />
+        </div>
       </div>
     </nav>
   );

@@ -1,5 +1,8 @@
 import React from "react";
 import "./Navbar.css";
+import deleteIcon from "../images/delete-icon.png";
+import subtractIcon from "../images/subtract-icon.png"
+import 
 
 const Navbar: React.FC = () => {
   return (
@@ -7,14 +10,14 @@ const Navbar: React.FC = () => {
       <div className="navbar_icons">
         <div>
           <img
-            src="./images/delete-icon.png"
+            src={deleteIcon}
             alt="delete"
             className="close_icon"
           />
         </div>
         <div>
           <img
-            src="./images/subtract-icon.png"
+            src={subtractIcon}
             alt="subtract"
             className="subtract_icon"
           />

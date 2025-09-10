@@ -1,3 +1,6 @@
-.navbar_icons {
-  color: #fff;
+.navbar_icons img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  background-color: azure;
 }
